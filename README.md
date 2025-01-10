@@ -7,7 +7,7 @@
 
 *After cloning this config, follow these steps*:
 1. Open `nvim` and enter `:PlugInstall` command
-2. Install `nvim-treesitter` plugin [Install](https://dotfyle.com/plugins/nvim-treesitter/nvim-treesitter)
-3. Install `nvim-lspconfig` plugin [Install](https://dotfyle.com/plugins/neovim/nvim-lspconfig)
+2. Install `nvim-treesitter` plugin [Install](https://dotfyle.com/plugins/nvim-treesitter/nvim-treesitter). **Go to they GitHub repo!**
+3. Install `nvim-lspconfig` plugin [Install](https://dotfyle.com/plugins/neovim/nvim-lspconfig). **Go to they GitHub repo!**
 4. Install `pyright` with `npm i -g pyright`
 5. Install `pylsp` with `pipx install python-lsp-server`
