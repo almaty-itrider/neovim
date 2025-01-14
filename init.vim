@@ -2,6 +2,9 @@ call plug#begin()
 
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'preservim/nerdtree' |
+	\ Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'stevearc/conform.nvim'
 
 " For nvim-cmp
 Plug 'neovim/nvim-lspconfig'
@@ -20,3 +23,9 @@ call plug#end()
 colorscheme catppuccin 
 
 lua require('init')
+
+" NERDTree shortcuts
+nnoremap <leader>n :NERDTreeFocus<CR> " focus on NERDTree
+nnoremap <C-n> :NERDTree<CR> " open NERDTree 
+nnoremap <C-t> :NERDTreeToggle<CR> " toggle NERDTree
+nnoremap <C-f> :NERDTreeFind<CR> " find current file in NERDTree
