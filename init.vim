@@ -5,6 +5,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'preservim/nerdtree' |
 	\ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'stevearc/conform.nvim'
+Plug 'rebelot/kanagawa.nvim'
 
 " For nvim-cmp
 Plug 'neovim/nvim-lspconfig'
@@ -20,7 +21,7 @@ Plug 'hrsh7th/vim-vsnip'
 
 call plug#end()
 
-colorscheme catppuccin 
+"colorscheme catppuccin " I do not use this colorscheme cause I use a "kanagawa" theme 
 
 lua require('init')
 
