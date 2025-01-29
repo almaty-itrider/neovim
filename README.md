@@ -17,3 +17,7 @@
 9. Install `prettier` with `npm i -g prettier`
 10. Install `prettierd` with `npm i -g @fsouza/prettierd`
 11. Install `stylua` with `cargo install stylua` (You should have installed the Rust package manager `cargo`)
+12. Install `ansiblels` with `npm i -g @ansible/ansible-language-server`
+13. Install `dockerls` with `npm i -g dockerfile-language-server-nodejs`
+14. Install `luals` with `brew install lua-language-server`
+15. Install `sqlls` with `npm i -g sql-language-server`
