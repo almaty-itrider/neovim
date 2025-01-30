@@ -11,7 +11,9 @@ require("lspconfig").lua_ls.setup({})
 require("lspconfig").nginx_language_server.setup({})
 
 -- Theme
-require("kanagawa").load("dragon") -- also available "dragon" and "lotus" variants of theme
+-- require("kanagawa").load("dragon") -- also available "dragon" and "lotus" variants of theme
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
 
 -- Keymaps
 vim.opt.number = true

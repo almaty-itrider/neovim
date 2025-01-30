@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'ellisonleao/gruvbox.nvim', { 'as': 'gruvbox' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'preservim/nerdtree' |
 	\ Plug 'Xuyuanp/nerdtree-git-plugin'
